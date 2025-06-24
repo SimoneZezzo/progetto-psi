@@ -18,21 +18,29 @@ Questo progetto esegue un'analisi statistica con grafici annessi secondo le line
 
 ## Requisiti
 
-Consigliato Python 3.11
+- **Python 3.11** consigliato (⚠️ evitare Python 3.13 per incompatibilità con `statsmodels`)
+- Ambiente virtuale attivo
+- Pacchetti Python richiesti:
+
+```bash
+pip install pandas seaborn matplotlib statsmodels openpyxl
+```
 
 ## Esecuzione
 
 ### Metodo consigliato (ambiente virtuale `psi-env`)
 
 1. Entra nella cartella del progetto:
-   cd "TRACK"
-
-2. Attiva l’ambiente virtuale:
-   ```bash
-   ...\psi-env\Scripts\activate
+2. ```
+   cd nome_cartella_progetto
    ```
 
-3. Avvia lo script:
+3. Attiva l’ambiente virtuale:
+   ```bash
+   path\to\env\Scripts\activate
+   ```
+
+4. Avvia lo script:
    ```bash
    python main.py
    ```
