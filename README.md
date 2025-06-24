@@ -25,16 +25,14 @@ Consigliato Python 3.11
 ### Metodo consigliato (ambiente virtuale `psi-env`)
 
 1. Entra nella cartella del progetto:
-   ```bash
-   cd "C:\Users\simon\Desktop\Coding\Python\stat\fatturato_pubblicità"
-   ```
+   cd "TRACK"
 
 2. Attiva l’ambiente virtuale:
    ```bash
-   ..\..\course\psi-env\Scripts\activate
+   ...\psi-env\Scripts\activate
    ```
 
 3. Avvia lo script:
    ```bash
-   python r.py
+   python main.py
    ```
