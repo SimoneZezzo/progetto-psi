@@ -1,4 +1,4 @@
-# 📈 Progetto PSI – Analisi della relazione tra spesa pubblicitaria e fatturato
+# Progetto PSI – Analisi della relazione tra spesa pubblicitaria e fatturato
 
 Questo progetto esegue un'analisi statistica con grafici annessi secondo le linee guida di un progetto per l'esame Probabilità e Statistica per l'Informatica. Il progetto iniziale è stato richiesto in R, dopo averlo svolto ho esplorato Python come seconda opzione.
 
