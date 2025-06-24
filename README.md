@@ -31,16 +31,16 @@ pip install pandas seaborn matplotlib statsmodels openpyxl
 ### Metodo consigliato (ambiente virtuale `psi-env`)
 
 1. Entra nella cartella del progetto:
-2. ```
+   ```
    cd nome_cartella_progetto
    ```
 
-3. Attiva l’ambiente virtuale:
+2. Attiva l’ambiente virtuale:
    ```bash
    path\to\env\Scripts\activate
    ```
 
-4. Avvia lo script:
+3. Avvia lo script:
    ```bash
    python main.py
    ```
