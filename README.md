@@ -4,7 +4,7 @@ Questo progetto esegue un'analisi statistica con grafici annessi secondo le line
 
 ---
 
-## 📁 Contenuto del progetto
+## Contenuto del progetto
 
 - `main.py`: script Python contenente l’intera analisi, inclusi:
   - analisi descrittiva
@@ -16,16 +16,16 @@ Questo progetto esegue un'analisi statistica con grafici annessi secondo le line
 
 ---
 
-## 📦 Requisiti
+## Requisiti
 
 Consigliato Python 3.11
 
 ```bash
 pip install pandas seaborn matplotlib statsmodels openpyxl
 ```
-## ⚙️ Esecuzione
+## Esecuzione
 
-### ▶ Metodo consigliato (ambiente virtuale `psi-env`)
+### Metodo consigliato (ambiente virtuale `psi-env`)
 
 1. Entra nella cartella del progetto:
    ```bash
