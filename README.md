@@ -20,9 +20,6 @@ Questo progetto esegue un'analisi statistica con grafici annessi secondo le line
 
 Consigliato Python 3.11
 
-```bash
-pip install pandas seaborn matplotlib statsmodels openpyxl
-```
 ## Esecuzione
 
 ### Metodo consigliato (ambiente virtuale `psi-env`)
