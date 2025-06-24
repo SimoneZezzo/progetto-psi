@@ -18,7 +18,7 @@ Questo progetto esegue un'analisi statistica con grafici annessi secondo le line
 
 ## Requisiti
 
-- **Python 3.11** consigliato (⚠️ evitare Python 3.13 per incompatibilità con `statsmodels`)
+- **Python 3.11** consigliato (evitare Python 3.13 per incompatibilità con `statsmodels`)
 - Ambiente virtuale attivo
 - Pacchetti Python richiesti:
 
