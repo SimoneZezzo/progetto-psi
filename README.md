@@ -1,59 +1,59 @@
-# PSI Project – Analysis of the Relationship Between Advertising Expenses and Revenue
+# Progetto PSI – Analisi della relazione tra spesa pubblicitaria e fatturato
 
-This project performs a statistical analysis to study the relationship between advertising expenses and company revenue. It was initially developed in R for the university exam “Probability and Statistics for Computer Science,” and later replicated in Python as an alternative implementation.
+Progetto in Python e R per l’esame di Probabilità e Statistica per l’Informatica all’Università di Milano-Bicocca, Corso di Laurea in Informatica, con annessa analisi dei dati.
 
 ---
 
-## Project Structure
+## Struttura del progetto
 
 - **`analisi.R`**  
-  R script performing:
-  - descriptive analysis
-  - scatter plots
-  - linear regression
-  - summary statistics
-  - residual analysis
+  Script R che esegue:
+  - analisi descrittiva
+  - grafici a dispersione
+  - regressione lineare
+  - statistiche riassuntive
+  - analisi dei residui
 
 - **`main.py`**  
-  Python script implementing the same analysis, including:
-  - descriptive analysis
-  - scatter plots and residual plots
-  - linear regression
-  - integrated comments explaining the output
+  Script Python che implementa la stessa analisi, inclusi:
+  - analisi descrittiva
+  - grafici a dispersione e dei residui
+  - regressione lineare
+  - commenti integrati per spiegare i risultati
 
 - **`dati.xlsx`**  
-  Excel file containing the dataset provided by the instructor.
+  File Excel contenente il dataset fornito dal docente.
 
 - **`Analisi Spesa Pubblicitaria e Fatturato-Final.pdf`**  
-  Final report summarizing the results of the analysis, including charts and interpretation of the statistical findings.
+  Relazione finale che riassume i risultati dell’analisi, inclusi grafici e interpretazione dei risultati statistici.
 
 - **`README.md`**  
-  This file.
+  Questo file.
 
 ---
 
-## Requirements
+## Requisiti
 
-### R Environment
+### Ambiente R
 
-- R version ≥ 4.0 recommended
-- Required R packages:
+- Versione R ≥ 4.0 consigliata
+- Pacchetti R richiesti:
   - `readxl`
   - `ggplot2`
 
-Install the necessary packages in R:
+Installa i pacchetti necessari in R:
 
 ```R
 install.packages("readxl")
 install.packages("ggplot2")
 ```
 
-### Python Environment
+### Ambiente Python
 
-- Python 3.11 recommended  
-  (avoid Python 3.13 due to compatibility issues with `statsmodels`)
-- Virtual environment activated
-- Required Python packages:
+- Python 3.11 consigliato  
+  (evitare Python 3.13 per incompatibilità con `statsmodels`)
+- Ambiente virtuale attivo
+- Pacchetti Python richiesti:
 
 ```bash
 pip install pandas seaborn matplotlib statsmodels openpyxl
@@ -61,55 +61,55 @@ pip install pandas seaborn matplotlib statsmodels openpyxl
 
 ---
 
-## How to Run the Analysis
+## Come eseguire l’analisi
 
-### Running the R Script
+### Esecuzione dello script R
 
-1. Open R or RStudio.
-2. Set the working directory to the project folder:
+1. Apri R o RStudio.
+2. Imposta la cartella di lavoro sulla cartella del progetto:
    ```R
-   setwd("path/to/progetto-psi")
+   setwd("percorso/alla/cartella/progetto-psi")
    ```
-3. Run the script:
+3. Esegui lo script:
    ```R
    source("analisi.R")
    ```
 
-The script will read the Excel data and generate plots and regression results.
+Lo script leggerà i dati dal file Excel e genererà grafici e risultati della regressione.
 
 ---
 
-### Running the Python Script
+### Esecuzione dello script Python
 
-1. Navigate to the project folder:
+1. Spostati nella cartella del progetto:
    ```bash
-   cd path/to/progetto-psi
+   cd percorso/alla/cartella/progetto-psi
    ```
 
-2. Activate the virtual environment:
+2. Attiva l’ambiente virtuale:
    ```bash
    path\to\env\Scripts\activate      # Windows
-   # or
+   # oppure
    source path/to/env/bin/activate   # macOS/Linux
    ```
 
-3. Run the Python script:
+3. Esegui lo script Python:
    ```bash
    python main.py
    ```
 
 ---
 
-## Final Report
+## Relazione finale
 
-The file **Analisi Spesa Pubblicitaria e Fatturato-Final.pdf** contains:
+Il file **Analisi Spesa Pubblicitaria e Fatturato-Final.pdf** contiene:
 
-- All the plots created during the analysis
-- Interpretation of the statistical results
-- Conclusions drawn from the relationship between advertising expenses and revenue
+- tutti i grafici creati durante l’analisi
+- interpretazione dei risultati statistici
+- conclusioni sulla relazione tra spesa pubblicitaria e fatturato
 
 ---
 
-## Author
+## Autore
 
-Developed as part of the coursework for the Probability and Statistics for Computer Science exam.
+Sviluppato nell’ambito dell’esame di Probabilità e Statistica per l’Informatica presso l’Università di Milano-Bicocca.
