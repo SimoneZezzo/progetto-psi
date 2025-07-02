@@ -107,9 +107,3 @@ Il file **Analisi Spesa Pubblicitaria e Fatturato-Final.pdf** contiene:
 - tutti i grafici creati durante l’analisi
 - interpretazione dei risultati statistici
 - conclusioni sulla relazione tra spesa pubblicitaria e fatturato
-
----
-
-## Autore
-
-Sviluppato nell’ambito dell’esame di Probabilità e Statistica per l’Informatica presso l’Università di Milano-Bicocca.
