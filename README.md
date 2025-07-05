@@ -81,7 +81,7 @@ Lo script leggerà i dati dal file Excel e genererà grafici e risultati della r
 
 ### Esecuzione dello script Python
 
-1. Naviga fino cartella del progetto:
+1. Naviga fino alla cartella del progetto:
    ```bash
    cd percorso/alla/cartella/progetto-psi
    ```
