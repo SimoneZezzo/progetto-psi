@@ -7,7 +7,7 @@ library(readxl)
 library(car)
 
 # Import dati
-dati <- read_excel("C:\\Users\\simon\\Desktop\\Coding\\R\\dati.xlsx")
+dati <- read_excel("dati.xlsx")
 
 # Analisi descrittiva
 summary(dati$Spesa_pubblicitaria)
